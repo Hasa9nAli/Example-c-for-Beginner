@@ -1,12 +1,11 @@
 #include<iostream>
-
 using namespace std;
-int cab(int n) {
+// function to calc number * number * number 
+int cab(int number) {
 
-	n = n * n * n; 
+	number = number * number * number; 
 	return n; 
 }
-
 void main() {
 	int number;
 	cout << "enter the number to finde the number^3 : ";
